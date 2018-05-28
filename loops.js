@@ -19,7 +19,6 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 function doWhileLoop(array) {
- do {
-  console.log('doo-bee-doo-bee-doo')
+ do { array.slice(1)
 } while (maybeTrue());
 }
