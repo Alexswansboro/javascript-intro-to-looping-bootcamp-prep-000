@@ -19,7 +19,7 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 function doWhileLoop(array) {
- do { array.slice(1)
+ do { array.pop()
 } while (array.length > 0 && maybeTrue())
   return array
 }
